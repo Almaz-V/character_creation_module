@@ -4,7 +4,6 @@ from random import randint
 # импортируем функцию run_screensaver().
 from graphic_arts.start_game_banner import run_screensaver
 
-
 def attack(char_name: str, char_class: str) -> str:
     """Данная функция отвечает за нанесение урона противнику."""
     if char_class == 'warrior':
